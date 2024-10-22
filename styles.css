@@ -1,0 +1,120 @@
+.dropdown {
+    margin-top: 25%;
+    position: relative;
+    display: inline-block;
+    margin-left: 90%;
+}
+
+
+.dropdown-btn {
+    background-color: darkblue;
+    color: white;
+    cursor: pointer;
+    transition-duration: 500ms;
+    border: 2px solid black;
+    border-radius: 10rem;
+    padding: 5px 20px 12px 15px;
+    width: 5rem;
+    height: 5rem;
+    text-decoration: none;
+
+
+}
+
+.dropdown-btn:hover {
+    color: black;
+    background-color: white;
+}
+
+.drop-cnt {
+    display: none;
+    z-index: 1;
+    margin-top: -5rem;
+    right: 5rem;
+    background-color: #f1f1f1;
+    position: absolute;
+    min-width: 160px;
+    text-decoration: none;
+    
+}
+
+.drop-cnt a {
+    text-emphasis: center;
+    background-color: aliceblue;
+    padding: 12px 15px;
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+
+.dropdown:hover .drop-cnt {
+    display: block;
+}
+
+.drop-cnt a:hover {
+border: 2px solid black;
+}
+
+.drop-cnt a:active {
+    border: 2px solid black;
+    }
+    
+
+
+.container {
+    gap: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+
+.navbar {
+    text-align: center;
+    border-radius: 5rem;
+    overflow: hidden;
+    display: flex;
+    width: 97%;
+    background-color: yellow;
+    transition-duration: 500ms;
+    float: left;
+    height: 5rem;
+    z-index: 1;
+    position: sticky;
+    justify-content: left;
+    text-align: center;
+    gap: 10px;
+}
+
+.navbar a {
+    
+    display: block;
+    float: left;
+    cursor: pointer;
+    padding-top: 16px;
+    padding: 16px 10px 10px 10px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border:2px solid black;
+    margin-left: 1rem;
+    margin-top: 10px;
+    transition-duration: 500ms;
+    width: 3rem;
+    font-weight: 900;
+    height: 2rem;
+    font-family: sans-serif;
+    text-align: center;
+    
+
+}
+
+.navbar a:active{
+    
+    color: white;
+    cursor: pointer;
+    background-color: black;
+
+}
